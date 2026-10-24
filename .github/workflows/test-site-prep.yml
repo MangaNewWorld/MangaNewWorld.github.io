@@ -1,0 +1,15 @@
+name: Test site preparation workflow
+on:
+  push:
+    branches:
+      - chatgpt/mangogoatlas-chapter-free-setup-2026-10-24
+    paths:
+      - '.github/workflows/test-site-prep.yml'
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "GitHub Actions runner is working"
