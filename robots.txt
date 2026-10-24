@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://mangogoatlas.github.io/sitemap.xml
+Sitemap: https://manganewworld.github.io/sitemap.xml
