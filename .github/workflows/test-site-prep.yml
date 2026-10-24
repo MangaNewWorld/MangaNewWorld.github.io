@@ -41,17 +41,17 @@ jobs:
           if p.exists():
             cfg=json.loads(p.read_text(encoding='utf-8'))
             for section in cfg.get('sections',[]): section['enabled']=False
-            p.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+            p.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           p=Path('seo-system.js')
           if p.exists(): p.write_text(p.read_text(encoding='utf-8').replace('https://mangaatlas.github.io','https://mangogoatlas.github.io'),encoding='utf-8')
           p=Path('vercel.json')
           if p.exists():
             cfg=json.loads(p.read_text(encoding='utf-8'))
             cfg['rewrites']=[x for x in cfg.get('rewrites',[]) if x.get('source')!='/sitemap.xml']
-            p.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+            p.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           for name in ('manual-chapters.json','upcoming-chapters.json','extra-chapters.json'):
             p=Path('data')/name
-            if not p.exists(): p.write_text('{\\n  "version": 1,\\n  "chapters": []\\n}\\n',encoding='utf-8')
+            if not p.exists(): p.write_text('{\n  "version": 1,\n  "chapters": []\n}\n',encoding='utf-8')
           for name in ('admin/index.html','admin/manga.html','admin/chapters.html','admin/ads-v3.html'):
             p=Path(name)
             if p.exists():
