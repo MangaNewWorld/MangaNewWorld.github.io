@@ -65,6 +65,8 @@ jobs:
           PY
           node scripts/build-chapter-pages.js
           git add -A
+          # The connected GitHub App cannot push workflow-file changes; keep those unstaged.
+          git reset -- .github/workflows
           if git diff --cached --quiet; then echo 'No site changes detected'; exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
