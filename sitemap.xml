@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://manganewworld.github.io/</loc></url>
   <url><loc>https://manganewworld.github.io/latest-chapters.html</loc></url>
   <url><loc>https://manganewworld.github.io/manga.html</loc></url>
   <url><loc>https://manganewworld.github.io/country.html</loc></url>
-  <url><loc>https://manganewworld.github.io/japan-blog.html</loc></url>
+  <url><loc>https://manganewworld.github.io/country.html?country=JP</loc></url>
+  <url><loc>https://manganewworld.github.io/country.html?country=US</loc></url>
+  <url><loc>https://manganewworld.github.io/country.html?country=FR</loc></url>
+  <url><loc>https://manganewworld.github.io/country.html?country=BR</loc></url>
   <url><loc>https://manganewworld.github.io/blog.html</loc></url>
-  <url><loc>https://manganewworld.github.io/chapter.html?slug=one-piece-raw-1197-jap</loc><lastmod>2026-10-24</lastmod></url>
+  <url><loc>https://manganewworld.github.io/japan-blog.html</loc></url>
+  <url><loc>https://manganewworld.github.io/france-blog.html</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=the-fragrant-flowers-bloom-dignifiedly</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=one-piece</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=days</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=boku-to-roboko</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=mokushiroku-no-yonkishi</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=blue-lock</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=boruto-two-blue-vortex</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=otona-taisen</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=someone-hertz</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=shinobi-undercover</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=ichi-the-witch</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=akane-banashi</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=roku-house-of-oddities</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=gray-keith-no-makai-goyakuroku</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=kingdo-raw</loc></url>
+  <url><loc>https://manganewworld.github.io/manga.html?slug=Kagurabachi-jp</loc></url>
+  <url><loc>https://manganewworld.github.io/chapter.html?slug=one-piece-raw-1197-jap</loc><lastmod>2026-10-24</lastmod><image:image><image:loc>https://manganewworld.github.io/chapter-images/one-piece/chapter-one-piece-raw-/0001-_877___2026_6_1___________21_.jpg</image:loc></image:image></url>
 </urlset>
