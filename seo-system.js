@@ -5,7 +5,7 @@
   document.documentElement.dataset.mangaAtlasSeo='ready';
 
   const esc=v=>String(v??'').replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m]));
-  const base='https://mangogoatlas.github.io';
+  const base='https://manganewworld.github.io';
   const upsert=(selector,attrs)=>{
     let el=document.head.querySelector(selector);
     if(!el){el=document.createElement('meta');document.head.appendChild(el)}
