@@ -1,0 +1,35 @@
+name: Build indexable chapter pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/*.json'
+      - 'latest-chapters.html'
+      - 'scripts/build-chapter-pages.js'
+      - '.github/workflows/build-chapter-pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate static chapter pages
+        run: node scripts/build-chapter-pages.js
+      - name: Commit generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chapters sitemap.xml latest-chapters.html
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+          else
+            git commit -m "Generate indexable static chapter pages"
+            git push
+          fi
