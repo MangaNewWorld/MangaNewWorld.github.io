@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "mangas": [
+    {
+      "id": "the-fragrant-flowers-bloom-dignifiedly",
+      "title": "The Fragrant Flowers Bloom Dignifiedly",
+      "native_title": "薫る花は凛と咲く",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/the-fragrant-flowers-bloom-dignifiedly/1789725297605-img_kv2.jpg",
+      "slug": "the-fragrant-flowers-bloom-dignifiedly",
+      "updated_at": "2026-09-18T09:54:57.605Z"
+    },
+    {
+      "id": "one-piece",
+      "title": "One Piece",
+      "native_title": "ワンピース",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaAtlas/MangaAtlas.github.io/main/manga-covers/one-piece/1789577268502-______raw___One_piece_raw__.webp",
+      "slug": "one-piece",
+      "updated_at": "2026-09-16T16:47:48.491Z"
+    },
+    {
+      "id": "days",
+      "title": "DAYS",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaAtlas/MangaAtlas.github.io/main/manga-covers/days/cover-1788579905381.webp",
+      "slug": "days",
+      "native_title": ""
+    },
+    {
+      "id": "boku-to-roboko",
+      "title": "BOKU TO ROBOKO",
+      "native_title": "僕とロボコ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaAtlas/MangaAtlas.github.io/main/manga-covers/boku-to-roboko/1789579519967-71X9QX_xG5L._UF1000_1000_QL80_.jpg",
+      "slug": "boku-to-roboko",
+      "updated_at": "2026-09-16T17:25:19.965Z"
+    },
+    {
+      "id": "mokushiroku-no-yonkishi",
+      "title": "THE FOUR KNIGHTS OF THE APOCALYPSE",
+      "native_title": "黙示録の四騎士",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/mokushiroku-no-yonkishi/1789725280856-91YKJmha2uL._UF1000_1000_QL80_.jpg",
+      "slug": "mokushiroku-no-yonkishi",
+      "updated_at": "2026-09-18T09:54:40.856Z"
+    },
+    {
+      "id": "blue-lock",
+      "title": "Blue Lock",
+      "native_title": "ブルーロック",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/blue-lock/1789719721165-________raw___Blue_Lock_Raw__.jpg",
+      "slug": "blue-lock",
+      "updated_at": "2026-09-18T08:22:01.164Z"
+    },
+    {
+      "id": "boruto-two-blue-vortex",
+      "title": "Boruto: Two Blue Vortex",
+      "native_title": "ボルト",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/boruto-two-blue-vortex/1789750403917-9b8d0b5993c898aada1e856c00cc8397.webp",
+      "slug": "boruto-two-blue-vortex",
+      "updated_at": "2026-09-18T16:53:23.916Z"
+    },
+    {
+      "id": "adult-war",
+      "title": "大人大戦",
+      "native_title": "大人大戦",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/otona-taisen/1789750573716-61AdhOYWu4L.jpg",
+      "slug": "otona-taisen",
+      "updated_at": "2026-09-18T16:56:13.716Z"
+    },
+    {
+      "id": "someone-hertz",
+      "title": "Someone Hertz",
+      "native_title": "さむわんへるつ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/someone-hertz/1789806742815-samuwanherutsu.jpg",
+      "slug": "someone-hertz",
+      "updated_at": "2026-09-19T08:32:22.815Z"
+    },
+    {
+      "id": "shinobi-undercover",
+      "title": "Shinobi Undercover",
+      "native_title": "しのびごと",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/shinobi-undercover/1789806816063-shinobigoto.jpg",
+      "slug": "shinobi-undercover",
+      "updated_at": "2026-09-19T08:33:36.062Z"
+    },
+    {
+      "id": "ichi-the-witch",
+      "title": "Ichi the Witch",
+      "native_title": "魔男のイチ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/ichi-the-witch/1789806714037-mo-nannoichi.jpg",
+      "slug": "ichi-the-witch",
+      "updated_at": "2026-09-19T08:31:54.036Z"
+    },
+    {
+      "id": "akane-banashi",
+      "title": "Akane-banashi",
+      "native_title": "あかね噺",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/akane-banashi/1789806761854-akane-xin.jpg",
+      "slug": "akane-banashi",
+      "updated_at": "2026-09-19T08:32:41.854Z"
+    },
+    {
+      "id": "roku-house-of-oddities",
+      "title": "Roku's House of Oddities",
+      "native_title": "ロクのおかしな家",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/roku-house-of-oddities/1789806842485-rokunookashina-jia.jpg",
+      "slug": "roku-house-of-oddities",
+      "updated_at": "2026-09-19T08:34:02.485Z"
+    },
+    {
+      "id": "gray-keith-no-makai-goyakuroku",
+      "title": "Gray Keith no Makai Goyakuroku",
+      "native_title": "グレイキースの魔界語訳録",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/gray-keith-no-makai-goyakuroku/1789806797945-gureikisuno-mo-jie-yu-yi-lu.jpg",
+      "slug": "gray-keith-no-makai-goyakuroku",
+      "updated_at": "2026-09-19T08:33:17.945Z"
+    },
+    {
+      "id": "kingdo-raw",
+      "title": "キングダム raw ( kingdom raw )",
+      "slug": "kingdo-raw",
+      "native_title": "キングダム",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/kingdo-raw/1790086221499-______Raw___Kingdom_Raw__.webp",
+      "created_at": "2026-09-22T12:59:09.791Z",
+      "updated_at": "2026-09-22T14:10:21.498Z"
+    },
+    {
+      "id": "kagurabachi-jp",
+      "title": "Kagurabachi",
+      "slug": "Kagurabachi-jp",
+      "native_title": "カグラバチ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/kagurabachi-jp/1791472599800-______raw___Kagurabachi_raw__.jpg",
+      "created_at": "2026-10-08T14:55:28.479Z",
+      "updated_at": "2026-10-08T15:16:39.800Z"
+    }
+  ],
+  "chapters": []
+}
