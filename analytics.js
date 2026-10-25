@@ -1,5 +1,5 @@
 (function(){
-  var MEASUREMENT_ID='G-DWTESS8CF2';
+  var MEASUREMENT_ID='G-RW2BC65199';
   window.dataLayer=window.dataLayer||[];
   window.gtag=window.gtag||function(){window.dataLayer.push(arguments)};
   gtag('js',new Date());
@@ -28,5 +28,5 @@
   }
   function boot(){loadSeoSystem();loadAdsSystem();pageView();loadChapterNavigation();}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
-  window.mangaAtlasAnalytics={pageView:function(extra){var p={page_title:document.title,page_location:location.href,page_path:location.pathname+location.search};if(extra)for(var k in extra)p[k]=String(extra[k]);gtag('event','page_view',p)},event:function(name,params){gtag('event',name,params||{})}};
+  window.mangaAtlasAnalytics={pageView:function(extra){var p={page_title:document.title,page_location:location.href,page_path:location.pathname+location.search};if(extra)for(var k in extra)p[k]=String(extra[k]);gtag('event','page_view',p);if(extra&&(location.pathname==='/chapter.html'||location.pathname==='/chapter')){gtag('event','chapter_view',{chapter_name:document.title,chapter_slug:String(extra.chapter_slug||new URLSearchParams(location.search).get('slug')||''),chapter_number:String(extra.chapter_number??''),manga_title:String(extra.manga_title||''),page_location:location.href})}},event:function(name,params){gtag('event',name,params||{})}};
 })();
