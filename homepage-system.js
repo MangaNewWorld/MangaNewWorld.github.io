@@ -16,7 +16,7 @@
   const title=c=>c?.mangaTitle||c?.manga||c?.series||c?.mangaId||c?.title||'Manga';
   const chapterId=c=>norm(c?.mangaId||c?.manga_id||c?.seriesId||c?.series_id||title(c)||c?.slug||'');
   const mangaId=m=>norm(m?.id||m?.slug||m?.mangaId||m?.manga_id||m?.title||'');
-  const href=c=>'/chapter.html?slug='+encodeURIComponent(c?.slug||'');
+  const href=c=>'/chapters/'+encodeURIComponent(c?.slug||'')+'/';
   try{
     const [content,manual]=await Promise.all([read('data/content.json'),read('data/manual-chapters.json')]);
     const mangas=Array.isArray(content.mangas)?content.mangas:[];
