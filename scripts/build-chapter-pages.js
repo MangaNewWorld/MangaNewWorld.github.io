@@ -42,7 +42,7 @@ fs.rmSync(path.join(root, 'chapters'), { recursive: true, force: true });
 for (const c of chapters) {
   const slug = String(c.slug).trim();
   const title = String(c.title || ('Chapter ' + (c.number ?? ''))).trim();
-  const canonical = 'https://manganewworld.github.io/chapter.html?slug=' + encodeURIComponent(slug);
+  const canonical = 'https://manganewworld.github.io/chapters/' + encodeURIComponent(slug) + '/';
   const imgs = (Array.isArray(c.pages) ? c.pages : [])
     .map(p => typeof p === 'string' ? p : (p?.url || p?.path || p?.src || ''))
     .filter(Boolean)
@@ -96,7 +96,7 @@ for (const m of mangaList) {
 }
 for (const c of chapters) {
   const slug = String(c.slug).trim();
-  const loc = base + '/chapter.html?slug=' + encodeURIComponent(slug);
+  const loc = base + '/chapters/' + encodeURIComponent(slug) + '/';
   const lastmod = dateOnly(c.updatedAt || c.updated_at || c.createdAt || c.created_at || c.publishedAt || c.published_at);
   const imgs = (Array.isArray(c.pages) ? c.pages : [])
     .map(p => typeof p === 'string' ? p : (p?.url || p?.path || p?.src || ''))
@@ -129,7 +129,7 @@ if (fs.existsSync(latestPath)) {
         const slug = String(c.slug).trim();
         const title = String(c.title || ('Chapter ' + (c.number ?? ''))).trim();
         const manga = String(c.mangaTitle || c.mangaName || c.manga || c.mangaId || 'Manga');
-        return '<a href="/chapter.html?slug=' + encodeURIComponent(slug) + '">' + esc(title) + '<small>' + esc(manga) + ' · Open chapter</small></a>';
+        return '<a href="/chapters/' + encodeURIComponent(slug) + '/">' + esc(title) + '<small>' + esc(manga) + ' · Open chapter</small></a>';
       }).join('')
     : 'No chapters published yet. New listings will appear here when available.';
   html = html.replace(/<div class="static-list(?: empty)?" aria-label="Latest manga chapter links">[\s\S]*?<\/div>/,
