@@ -32,5 +32,14 @@ jobs:
             echo "No generated changes."
           else
             git commit -m "Generate indexable static chapter pages"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push attempt $attempt failed; retrying after syncing main."
+              sleep 2
+            done
+            echo "Unable to push generated SEO files after 3 attempts."
+            exit 1
           fi
